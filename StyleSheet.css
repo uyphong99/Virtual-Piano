@@ -1,0 +1,57 @@
+.container{
+    text-align: center;
+    border: black 1px dashed;
+    height:60vh;
+    background-color: darkgrey;
+    border-radius: 30px;
+    padding-top: 20vh;
+}
+
+body {
+    background-color: darkslategrey;
+    margin: 10vh;
+}
+
+.white-keys kbd {
+    background-color: white;
+    border: solid gray 2px;
+    display: inline-block;
+    width: 12%;
+    font-size: 25px;
+    margin-left: -5px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    top: 30px;
+    max-width: 80px;
+}
+
+.black-keys kbd {
+    background-color: black;
+    display: inline-block;
+    width: 2%;
+    height: 5%;
+    font-size: 25px;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 30vh;
+}
+
+.black-keys kbd:nth-child(1) {
+    left: 37.5vw;
+}
+.black-keys kbd:nth-child(2) {
+    left: 41.9vw;
+}
+.black-keys kbd:nth-child(3) {
+    left: 50.7vw;
+}
+.black-keys kbd:nth-child(4) {
+    left: 55.1vw;
+}
+.black-keys kbd:nth-child(5) {
+    left: 59.5vw;
+}
+
+
